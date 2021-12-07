@@ -83,9 +83,15 @@ a {
   height: 80vh;
 }
 .hero .hero-text .title {
+  width: 80vw;
+  margin: auto;
+  word-wrap: break-word;
   font-size: calc(1.5rem + 1.5vw);
 }
 .hero .hero-text .sub-title {
+  width: 80vw;
+  margin: auto;
+  word-wrap: break-word;
   padding: 1.3rem;
 }
 .hero .hero-img {
@@ -228,7 +234,15 @@ a {
 }
 .collab .title {
   font-size: 18px;
+  width: 80vw;
+  margin: auto;
+  word-wrap: break-word;
   padding-bottom: 2rem;
+}
+.collab .subtitle {
+  width: 80vw;
+  margin: auto;
+  word-wrap: break-word;
 }
 .collab .btn {
   color: var(--main);

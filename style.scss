@@ -81,9 +81,15 @@ a{
     height: 80vh;
     .hero-text{
         .title{
+            width: 80vw;
+            margin: auto;
+            word-wrap: break-word;
             font-size: calc(1.5rem + 1.5vw);
         }
         .sub-title{
+            width: 80vw;
+            margin: auto;
+            word-wrap: break-word;
             padding: 1.3rem;
         }
     }
@@ -220,7 +226,15 @@ a{
     padding: 4rem 0;
     .title{
         font-size: 18px;
+        width: 80vw;
+        margin: auto;
+        word-wrap: break-word;
         padding-bottom: 2rem;
+    }
+    .subtitle{
+        width: 80vw;
+        margin: auto;
+        word-wrap: break-word;
     }
     .btn{
         color: var(--main);
