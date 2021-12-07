@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+img {
+  height: 100%;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex-center {
+  display: flex;
+}
+
+.grid-center {
+  display: grid;
+}
+
+.flex-center, .grid-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Noto Sans Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.sub-title {
+  font-family: "Mukta", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 22px;
+}
+
+.wrapped {
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+nav {
+  padding: 2rem;
+  justify-content: flex-end !important;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.nav-btn {
+  padding: 0.8rem 2rem;
+  border: 2px solid var(--main);
+  border-radius: 25px;
+  color: var(--main);
+  font-weight: 900;
+}
+.nav-btn:hover {
+  color: white;
+  background-color: var(--main);
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.hero {
+  padding: 3rem;
+  padding-bottom: 0;
+  text-align: center;
+  height: 80vh;
+}
+.hero .hero-text .title {
+  font-size: calc(1.5rem + 1.5vw);
+}
+.hero .hero-text .sub-title {
+  padding: 1.3rem;
+}
+.hero .hero-img {
+  margin-top: auto;
+  transform: translateY(5px);
+}
+
+.bio {
+  background-color: var(--main);
+  text-align: center;
+  color: white;
+  padding: 10rem;
+}
+.bio .title {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.bio .description {
+  font-size: 18px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.highlighted {
+  color: var(--main);
+  font-weight: 800;
+  padding: 1rem 0;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, 450px));
+  justify-content: center;
+  border-radius: 25px;
+  overflow: hidden;
+  border: 1px solid var(--accent1);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  transform: translateY(-69px);
+}
+.skills .skill {
+  border: 0.5px solid var(--accent1);
+  padding: 2.5rem;
+  background-color: white;
+  text-align: center;
+}
+.skills .skill img {
+  height: 60px;
+}
+.skills .skill .skill-description {
+  padding: 2rem;
+  font-size: 18px;
+}
+.skills .skill .skill-title {
+  padding: 1rem;
+}
+
+.recent-work {
+  text-align: center;
+}
+.recent-work .title {
+  font-size: 28px;
+  padding: 1rem;
+}
+.recent-work .subtitle {
+  font-size: 20px;
+  max-width: 80%;
+  margin: auto;
+}
+.recent-work .subtitle a {
+  color: var(--main);
+  font-weight: 800;
+}
+.recent-work .projects {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 250px));
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 2rem;
+  grid-gap: 20px;
+}
+.recent-work .projects .project {
+  margin: auto;
+  height: 250px;
+  width: 250px;
+  color: white;
+  border-radius: 4%;
+  position: relative;
+  transition: 400ms;
+  cursor: pointer;
+}
+.recent-work .projects .project .image {
+  position: absolute;
+  width: 100%;
+}
+.recent-work .projects .project .text, .recent-work .projects .project .button {
+  display: none;
+}
+.recent-work .projects .project .text {
+  margin: auto;
+  margin-top: 30px;
+  max-width: 80%;
+}
+.recent-work .projects .project .button {
+  border: 2px solid white;
+  width: 50%;
+  margin: auto;
+  padding: 0.5rem 1rem;
+  transition: 200ms;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.recent-work .projects .project .button:hover {
+  border: 2px solid var(--main);
+  color: var(--main);
+  background-color: white;
+}
+.recent-work .projects .project:hover {
+  background: var(--main);
+  margin: auto;
+}
+.recent-work .projects .project:hover .image {
+  display: none;
+}
+.recent-work .projects .project:hover .text, .recent-work .projects .project:hover .button {
+  display: block;
+}
+
+.collab {
+  text-align: center;
+  padding: 4rem 0;
+}
+.collab .title {
+  font-size: 18px;
+  padding-bottom: 2rem;
+}
+.collab .btn {
+  color: var(--main);
+  border: 2px solid var(--main);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+  padding: 0.7rem 2rem;
+  transition: 200ms;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.collab .btn:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: var(--main);
+}
+
+footer {
+  background: var(--main);
+  padding: 2rem 0;
+}
+
+.links {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: white;
+}
+.links .link {
+  margin: auto 5px;
+  cursor: pointer;
+}
+.links .link img {
+  height: 32px;
+  width: 32px;
+}
+
+@media (max-width: 850px) {
+  .recent-work .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .recent-work .projects {
+    grid-template-columns: 1fr;
+  }
+}/*# sourceMappingURL=style.css.map */
