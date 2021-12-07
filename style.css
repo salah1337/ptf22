@@ -55,6 +55,7 @@ img {
 nav {
   padding: 2rem;
   justify-content: flex-end !important;
+  max-width: 90vw;
 }
 
 a {
@@ -77,7 +78,6 @@ a {
 }
 
 .hero {
-  padding: 3rem;
   padding-bottom: 0;
   text-align: center;
   height: 80vh;
@@ -97,6 +97,7 @@ a {
 .hero .hero-img {
   margin-top: auto;
   transform: translateY(5px);
+  width: 100%;
 }
 
 .bio {
