@@ -96,7 +96,9 @@ a{
         margin-top: auto;
         transform: translateY(5px);
         width: 100%;
-
+        img{
+            width: 100vw;
+        }
     }
 }
 .bio{

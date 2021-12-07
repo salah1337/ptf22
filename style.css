@@ -99,6 +99,9 @@ a {
   transform: translateY(5px);
   width: 100%;
 }
+.hero .hero-img img {
+  width: 100vw;
+}
 
 .bio {
   background-color: var(--main);
