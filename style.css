@@ -97,7 +97,11 @@ a {
   background-color: var(--main);
   text-align: center;
   color: white;
-  padding: 10rem;
+  padding: 10rem 2rem;
+}
+.bio .wrapped {
+  max-width: 650px;
+  margin: auto;
 }
 .bio .title {
   font-size: 30px;
@@ -267,6 +271,10 @@ footer {
 }
 
 @media (max-width: 850px) {
+  .skills {
+    grid-template-columns: 1fr;
+  }
+
   .recent-work .projects {
     grid-template-columns: repeat(2, 1fr);
   }
