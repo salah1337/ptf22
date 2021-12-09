@@ -294,3 +294,47 @@ footer{
         }
     }
  }
+
+.references{
+    text-align: center;
+    padding-bottom: 2rem;
+
+    .title{
+        font-size: 30px;
+        width: 80vw;
+        margin: auto;
+        word-wrap: break-word;
+    }
+    .reference{
+        padding-top: 20px;
+        span{
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .description{
+            padding-top: 10px;
+        }
+    }
+}
+
+.experiences{
+    text-align: center;
+    padding-bottom: 2rem;
+
+    .title{
+        font-size: 30px;
+        width: 80vw;
+        margin: auto;
+        word-wrap: break-word;
+    }
+    .experience{
+        padding-top: 20px;
+        span{
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .description{
+            padding-top: 10px;
+        }
+    }
+}

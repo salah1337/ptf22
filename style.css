@@ -301,4 +301,45 @@ footer {
   .recent-work .projects {
     grid-template-columns: 1fr;
   }
+}
+.references {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.references .title {
+  font-size: 30px;
+  width: 80vw;
+  margin: auto;
+  word-wrap: break-word;
+}
+.references .reference {
+  padding-top: 20px;
+}
+.references .reference span {
+  font-size: 20px;
+  font-weight: 700;
+}
+.references .reference .description {
+  padding-top: 10px;
+}
+
+.experiences {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.experiences .title {
+  font-size: 30px;
+  width: 80vw;
+  margin: auto;
+  word-wrap: break-word;
+}
+.experiences .experience {
+  padding-top: 20px;
+}
+.experiences .experience span {
+  font-size: 20px;
+  font-weight: 700;
+}
+.experiences .experience .description {
+  padding-top: 10px;
 }/*# sourceMappingURL=style.css.map */
