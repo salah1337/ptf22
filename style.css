@@ -101,6 +101,7 @@ a {
 }
 .hero .hero-img img {
   width: 100vw;
+  max-width: 800px;
 }
 
 .bio {
